@@ -1,7 +1,7 @@
 """
 calculatepi.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Adam Pikielny
+Credit: Mr. Dennison helped with an error in my code.
 Assignment:
 
 Write and submit a Python program that computes an approximate value of π by calculating the following sum:
