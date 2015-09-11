@@ -24,6 +24,6 @@ Note: remember that the printed value of pi will be an estimate!
 import math
 terms = int(input("I will estimate pi. How many terms should I use? \n"))
 decimalplaces = int(input("How many decimal places should I use in the result? \n"))
-pi = 4.0*sum
-print("The approximate value of pi is {0:.{1}f}.format(pi, decimal places))")
-print
+pi = 4.0*sum([((-1.0)**k)/math.factorial((2*k)+1) for k in range(0,terms)])
+print("The approximate value of pi is {0:.{1}f}".format(pi, decimal places)))
+print("The true value of pi is {0:.{1}f}".format(math.pi, decimal places)))
